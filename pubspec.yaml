@@ -1,0 +1,99 @@
+name: custom_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  adaptive_theme: null
+  animate_do: null
+  animations: null
+  avatar_glow: null
+  carousel_slider: null
+  convex_bottom_bar: null
+  cupertino_icons: null
+  flutter_blurhash: null
+  flutter_icons: null
+  flutter_native_splash: ^1.2.0
+  flutter_staggered_animations: null
+  http: null
+  intl: null
+  preload_page_view: null
+  provider: null
+  shape_of_view: null
+  responsive_sizer: ^3.0.4+4
+
+flutter_native_splash:
+  image: assets/images/reflectly_face.gif
+  color: "FFFFFF"
+
+dev_dependencies:
+  flutter_driver: # new
+    sdk: flutter # new
+  flutter_test:
+    sdk: flutter
+  test: ^1.14.4 # new
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/icons/
+  # example:
+  fonts:
+    # - family: Monserrat
+    #   fonts:
+    #     - asset: assets/fonts/Montserrat-Black.ttf
+    #     - asset: assets/fonts/Montserrat-Bold.ttf
+    #       weight: 700
+    #     - asset: assets/fonts/Montserrat-ExtraBold.ttf
+    #       weight: 900
+    #     - asset: assets/fonts/Montserrat-Medium.ttf
+    #     - asset: assets/fonts/Montserrat-MediumItalic.ttf
+    #       style: italic
+    #     - asset: assets/fonts/Montserrat-Regular.ttf
+    #       weight: 400
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Quicksand-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Quicksand-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/Quicksand-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/Quicksand-SemiBold.ttf
+          weight: 700
+    # - family: varela
+    #   fonts:
+    #     - asset: assets/fonts/VarelaRound-Regular.ttf
+    # - family: Nonito
+    #   fonts:
+    #     - asset: assets/fonts/NunitoRegular-vmABZ.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,32 @@
+{
+    "id-1": {
+        "author": "Eleanor Roosevelt",
+        "thought": "The future belongs to those who believe in the beauty of their dreams.",
+        "source": "https://images.unsplash.com/photo-1600551790611-583f602428a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+    },
+    "id-2": {
+        "author": "Elbert Hubbard",
+        "thought": "A friend is someone who knows all about you and still loves you.",
+        "source": "https://images.unsplash.com/photo-1600433944603-20e9723dd8ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+    },
+    "id-3": {
+        "author": "",
+        "thought": "Love takes off masks that we fear we cannot live without and know we cannot live within.",
+        "source": "https://images.unsplash.com/photo-1600663677113-7cac2b512d85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+    },
+    "id-4": {
+        "author": "",
+        "thought": "Love takes off masks that we fear we cannot live without and know we cannot live within.",
+        "source": "https://images.unsplash.com/photo-1600636917003-55ab60eb7338?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+    },
+    "id-5": {
+        "author": "",
+        "thought": "The most important thing in life is to learn how to give out love, and to let it come in.",
+        "source": "https://images.unsplash.com/photo-1600662506905-de95b994a63c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+    },
+    "id-6": {
+        "author": "",
+        "thought": "Love will find a way through paths where wolves fear to prey.",
+        "source": "https://images.unsplash.com/photo-1550176533-53a661ad88e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80"
+    }
+}
