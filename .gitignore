@@ -9,6 +9,7 @@
 .history
 .svn/
 
+
 # IntelliJ related
 *.iml
 *.ipr
@@ -31,6 +32,9 @@
 .pub/
 /build/
 
+# /assets
+# /Versions/
+
 # Web related
 lib/generated_plugin_registrant.dart
 
@@ -42,3 +46,8 @@ app.*.map.json
 
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+
+# Personal 
+
+# /Day and Night/

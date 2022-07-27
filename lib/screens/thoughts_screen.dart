@@ -244,7 +244,7 @@ class _ThoughtsScreenState extends State<ThoughtsScreen> {
                     ? CircularProgressIndicator()
                     : CarouselSlider.builder(
                         itemCount: thoughtsData.length,
-                        itemBuilder: (context, index) {
+                        itemBuilder: (context, index, _) {
                           return Thoughts(
                             source: thoughtsData[index].source,
                             blurhash: thoughtsData[index].blurhash,
